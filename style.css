@@ -1,0 +1,118 @@
+body {
+    font-family: Arial;
+    font-size: 15px;
+  }
+  
+  .checkBtn {
+    text-decoration: none;
+    color: rgb(42, 44, 65);
+  }
+  
+  .checkBtn:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 0px;
+    vertical-align: middle;
+    font-weight: 1000;
+    zoom: 155%;
+  }
+
+  .deleteBtn {
+    text-decoration: none;
+    color: rgb(42, 44, 65);
+  }
+  
+  .deleteBtn:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1f8";
+    display: inline-block;
+    padding-right: 0px;
+    vertical-align: middle;
+    font-weight: 1000;
+    zoom: 155%;
+  }
+
+body {
+    background-color: rgb(42, 44, 65);
+}
+
+#TaskCompleted{
+    text-decoration : line-through;
+}
+
+#Heading {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(42, 44, 65);
+    position: relative;
+    top: 20px;
+}
+
+#HeadingDiv {
+    background-color: white;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    top: -50px;
+}
+
+#Task {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 3.5px;
+    right: 30px;
+    border-radius: 2px;
+    border: 2px white solid;
+    zoom: 180%;
+    color: rgb(42, 44, 65);
+    background-color: white solid;;
+}
+
+#addBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 550;
+    position: relative;
+    left: 90px;
+    bottom: 18px;
+    border-radius: 4px;
+    border: 2px white solid;
+    zoom: 180%;
+    color: white;
+    background-color: rgb(42, 44, 65);
+}
+
+#addBtn:hover {
+    background-color: white;
+    color: rgb(42, 44, 65);
+}
+
+.TaskToDo {
+    background-color: white;
+    color: rgb(42, 44, 65);
+    text-decoration: rgb(42, 44, 65);
+    width: 200px;
+    font-size: 23px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+.checkBtn {
+    position: relative;
+    left: 220px;
+    bottom: 30px;
+}
+
+.deleteBtn {
+    position: relative;
+    left: 223px;
+    bottom: 30px;
+}
